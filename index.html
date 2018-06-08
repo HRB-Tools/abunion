@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Hello</title>
+	</head>
+	<body>
+		<ul id="nav-bar" class="nav-bar">
+			<li id='sena' class="col1">SENA</li>
+			<li id='opos' class="col2">Offene Rechnungen</li>
+			<li id='comp' class="col3">AND</li>
+			<li id='dl' class="col4">Herunterladen</li>
+            <li id="kl" class="col5">DL</li>
+            <li id='filt' class="col6">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkAQAAAADJe6U1AAAAAnRSTlMAAHaTzTgAAAAfSURBVHgBYyAP8P///x+FJATs/x9AIXEDxh8oJJkAAKINEgpPvCO/AAAAAElFTkSuQmCC">
+            </li>
+        </ul>
+        <ul id="ul2">
+            <div class="dropdown-content">
+                <input type="checkbox" id="betrag" checked>
+                <label for="betrag">Betrag</label><br>
+                <input type="checkbox" id="rechnungsnr" checked>
+                <label for="rechnungsnr">Rechnungsnummer</label><br>
+                <input type="checkbox" id="buchungstext">
+                <label for="buchungstext">Buchungstext Nummer</label><br>
+                <input type="checkbox" id="datum" checked>
+                <label for="datum">Datum</label><br>
+            </div>
+        </ul>
+        <form id="radio">
+            <p>Array List</p>
+        </form>
+		<input type='file' id='fileinput' value='SENA'>
+		<input type='file' id='fileinput2' value='OPOS'>
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="script.js"></script>
+	</body>
+</html>
